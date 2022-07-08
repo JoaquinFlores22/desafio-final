@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@import "./variables/extend";
+@import "./variables/media";
+
+@import "./secciones/index";
+@import "./secciones/footer";
+@import "./secciones/tv.scss";
+@import "./secciones/contacto";
+@import "./secciones/mi-trabajo";
+@import "./secciones/galeria";
