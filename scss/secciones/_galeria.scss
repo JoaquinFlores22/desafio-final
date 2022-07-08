@@ -1,10 +1,21 @@
 #galeria {
     .nav {
-       @extend %nav;
+        @extend %nav;
     }
 
     .img {
         @extend %img;
+    }
+
+    .seccion1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .card {
+        max-width: 200px;
     }
 
     .menu {
@@ -50,15 +61,15 @@
         }
     }
 
-    .valor {
-        @extend %valor;
-
-
+    #boton-card {
+        background-color: black;
+        color: white;
+        border: none;
 
         &:hover {
-            background-color: black;
-            transition: 0.3s;
-            color: white;
+            background-color: white;
+            transition: 0.1s;
+            color: black;
         }
     }
 
@@ -71,29 +82,11 @@
     }
 
 
-    .valor {
-        @extend %valor;
-
-        &:hover {
-            background-color: black;
-            transition: 0.3s;
-            color: white;
-        }
-    }
-
     .jordan {
         @extend %jordan;
     }
 
-    .listado1 {
-        @extend %listado1;
-    }
-
-    .precio {
-        @extend %precio;
-    }
-
-    div .redes i{
+    div .redes i {
         font-size: 40px;
     }
 }

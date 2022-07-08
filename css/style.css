@@ -28,25 +28,6 @@
   margin: 10px;
   border-radius: 100px; }
 
-#index .valor, #galeria .valor {
-  border-radius: 15px;
-  border: none;
-  background-color: white;
-  color: black; }
-
-#index .listado1, #galeria .listado1 {
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  margin-top: 2rem;
-  justify-content: space-between; }
-
-#index .precio, #galeria .precio {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
 #index .menu2, #galeria .menu2 {
   text-decoration: none;
   border-radius: 15px;
@@ -80,7 +61,6 @@
   border-radius: 30px; }
 
 #trabajo .contacto {
-  margin-top: 4rem;
   display: flex;
   justify-content: space-evenly; }
 
@@ -466,10 +446,17 @@
     transition: 0.3s;
     color: white; }
 
-#index .valor:hover {
+#index #boton-card {
   background-color: black;
-  transition: 0.3s;
-  color: white; }
+  color: white;
+  border: none; }
+  #index #boton-card:hover {
+    background-color: white;
+    transition: 0.1s;
+    color: black; }
+
+#index div .redes i {
+  font-size: 40px; }
 
 .footer {
   display: flex;
@@ -686,6 +673,15 @@ div.redes {
   font-size: 20px;
   color: white; }
 
+#galeria .seccion1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; }
+
+#galeria .card {
+  max-width: 200px; }
+
 #galeria .menu {
   margin: 5px;
   padding: 1rem; }
@@ -703,15 +699,14 @@ div.redes {
   transition: 0.3s;
   color: white; }
 
-#galeria .valor:hover {
+#galeria #boton-card {
   background-color: black;
-  transition: 0.3s;
-  color: white; }
-
-#galeria .valor:hover {
-  background-color: black;
-  transition: 0.3s;
-  color: white; }
+  color: white;
+  border: none; }
+  #galeria #boton-card:hover {
+    background-color: white;
+    transition: 0.1s;
+    color: black; }
 
 #galeria div .redes i {
   font-size: 40px; }

@@ -39,21 +39,6 @@
     color: black;
 }
 
-%listado1 {
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-    justify-content: space-between
-}
-
-%precio {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 %menu2 {
     text-decoration: none;
     border-radius: 15px;
@@ -92,7 +77,6 @@
 }
 
 %contacto {
-    margin-top: 4rem;
     display: flex;
     justify-content: space-evenly;
 }

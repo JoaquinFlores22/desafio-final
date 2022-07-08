@@ -67,13 +67,15 @@
         }
     }
 
-    .valor {
-        @extend %valor;
+    #boton-card {
+        background-color: black;
+        color: white;
+        border: none;
 
         &:hover {
-            background-color: black;
-            transition: 0.3s;
-            color: white;
+            background-color: white;
+            transition: 0.1s;
+            color: black;
         }
     }
 
@@ -81,13 +83,7 @@
         @extend %jordan;
     }
 
-    .listado1 {
-        @extend %listado1;
+    div .redes i {
+        font-size: 40px;
     }
-
-    .precio {
-        @extend %precio;
-    }
-
-
 }
