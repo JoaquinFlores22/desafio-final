@@ -435,6 +435,15 @@
     align-items: center;
     flex-direction: column; } }
 
+#index .seccion1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem; }
+
+#index .card {
+  max-width: 200px; }
+
 #index .fa-solid {
   margin-left: 5px; }
 
