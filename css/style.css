@@ -200,15 +200,19 @@
     display: none;
     flex-wrap: wrap; }
   #contacto #row .maps {
-    max-width: 230px;
-    height: 300px;
-    margin-left: -85px;
-    margin-top: 5rem; }
+    max-width: 370px;
+    margin-top: 5rem;
+    margin-left: -35px; }
   #contacto #row div input {
     max-width: 260px; }
   #contacto #row div textarea {
     max-width: 260px;
-    height: 100px; } }
+    height: 100px; }
+  #contacto #row .mapa {
+    max-width: 400px;
+    max-height: 370px; }
+  #contacto #row .primario {
+    max-width: 100%; } }
 
 #index .seccion1 {
   display: flex;
@@ -432,6 +436,10 @@ div.redes {
 #contacto .contacto {
   display: flex;
   justify-content: space-evenly; }
+
+#contacto .mapa {
+  width: 600px;
+  height: 455px; }
 
 #trabajo .headerMitrabajo {
   display: flex;
