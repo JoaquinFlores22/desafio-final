@@ -76,7 +76,7 @@
   border: white solid 2px;
   margin-left: 170px; }
 
-#biografia .video {
+#tv .video {
   margin-top: 4rem;
   display: flex;
   border: white solid 2px; }
@@ -149,39 +149,39 @@
     width: 130px; } }
 
 @media (max-width: 425px) {
-  #biografia .link {
+  #tv .link {
     display: flex;
     flex-direction: column; }
-  #biografia li {
+  #tv li {
     margin: 1rem; }
-  #biografia .column.subscribe {
+  #tv .column.subscribe {
     display: none; }
-  #biografia .column.links {
+  #tv .column.links {
     display: none; }
-  #biografia .video {
-    max-width: 367px;
+  #tv .video {
+    max-width: 360px;
     margin-left: 10px;
     max-height: 244px; }
-  #biografia .contacto h1 {
+  #tv .contacto h1 {
     max-width: 250px; }
-  #biografia .contenedor1 {
+  #tv .contenedor1 {
     display: flex;
     flex-direction: column; }
-  #biografia .nombre {
+  #tv .nombre {
     display: none; } }
 
 @media (max-width: 768px) {
-  #biografia .contenedor1 {
+  #tv .contenedor1 {
     display: flex;
     flex-direction: column;
     margin: 15px; }
-  #biografia .footer input {
+  #tv .footer input {
     max-width: 180px; } }
 
 @media (min-width: 1024px) {
-  #biografia .container1 {
+  #tv .container1 {
     padding: 30px; }
-  #biografia .footer {
+  #tv .footer {
     margin-top: -15px; } }
 
 @media (max-width: 425px) {
@@ -299,77 +299,77 @@ div.redes {
     font-size: 0.9em;
     text-align: right; }
 
-#biografia .grilla {
+#tv .grilla {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr 1fr 1fr;
   grid-template-areas: "nav nav nav nav" "header header header header" "header header header header" "header header header header" "footer footer footer footer"; }
 
-#biografia #accordionBio {
+#tv #accordionBio {
   width: 900px;
   padding: 2rem; }
 
-#biografia .biografia {
+#tv .biografia {
   font-size: 2.5rem;
   border-bottom: solid 5px black;
   display: flex;
   color: white;
   justify-content: space-around; }
 
-#biografia .contacto {
+#tv .contacto {
   display: flex;
   justify-content: space-evenly; }
 
-#biografia .nav {
+#tv .nav {
   grid-area: nav;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background: linear-gradient(0deg, #1e7cb5 33%, #0a1c26 100%); }
 
-#biografia .img {
+#tv .img {
   border: solid 1px black;
   max-width: 200px;
   margin: 10px;
   border-radius: 100px; }
 
-#biografia .menu {
+#tv .menu {
   text-decoration: none;
   border-radius: 15px;
   margin: 5px;
   padding: 1rem;
   color: white; }
-  #biografia .menu:hover {
+  #tv .menu:hover {
     background-color: white;
     transition: 0.3s;
     color: black; }
 
-#biografia .link {
+#tv .link {
   display: flex;
   justify-content: flex-start;
   list-style: none;
   margin-top: 2rem; }
-  #biografia .link i {
+  #tv .link i {
     color: white; }
 
-#biografia .header {
+#tv .header {
   grid-area: header;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/roma.jpg); }
 
-#biografia .contenedor1 {
+#tv .contenedor1 {
   display: flex;
   align-items: center;
   margin: 15px; }
 
-#biografia .imagen {
+#tv .imagen {
   border: solid 3px white;
   width: 250px;
   margin: 1rem;
   margin-top: 4rem; }
 
-#biografia .h1 {
+#tv .h1 {
   font-size: 15px; }
 
-#biografia .nombre {
+#tv .nombre {
   margin-left: 2rem;
   color: white; }
 
