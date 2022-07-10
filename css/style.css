@@ -184,7 +184,7 @@
   #tv .footer {
     margin-top: -15px; } }
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   #contacto .link {
     display: flex;
     flex-direction: column; }
@@ -194,25 +194,86 @@
     display: none; }
   #contacto .column.links {
     display: none; }
-  #contacto .header {
-    height: 900px; }
   #contacto #row {
     display: none;
     flex-wrap: wrap; }
   #contacto #row .maps {
     max-width: 370px;
     margin-top: 5rem;
-    margin-left: -35px; }
+    margin-left: -6px; }
   #contacto #row div input {
     max-width: 260px; }
   #contacto #row div textarea {
     max-width: 260px;
     height: 100px; }
   #contacto #row .mapa {
-    max-width: 400px;
-    max-height: 370px; }
+    max-width: 300px;
+    max-height: 230px; }
   #contacto #row .primario {
     max-width: 100%; } }
+
+@media (max-width: 475px) {
+  #contacto .link {
+    display: flex;
+    flex-direction: column; }
+  #contacto li {
+    margin: 1rem; }
+  #contacto .column.subscribe {
+    display: none; }
+  #contacto .column.links {
+    display: none; }
+  #contacto #row {
+    display: none;
+    flex-wrap: wrap; }
+  #contacto #row .maps {
+    max-width: 370px;
+    margin-top: 5rem;
+    margin-left: -6px; }
+  #contacto #row div input {
+    max-width: 260px; }
+  #contacto #row div textarea {
+    max-width: 260px;
+    height: 100px; }
+  #contacto #row .mapa {
+    max-width: 300px;
+    max-height: 230px; }
+  #contacto #row .primario {
+    max-width: 100%; } }
+
+@media (min-width: 768px) {
+  #contacto #row {
+    display: none;
+    flex-wrap: wrap; }
+  #contacto #row .maps {
+    max-width: 370px;
+    margin-left: -6px;
+    margin-bottom: 5rem; }
+  #contacto #row div input {
+    max-width: 260px; }
+  #contacto #row div textarea {
+    max-width: 260px;
+    height: 100px; }
+  #contacto #row .mapa {
+    max-width: 398px;
+    max-height: 279px; }
+  #contacto #row .primario {
+    max-width: 100%; }
+  #contacto .footer input {
+    max-width: 170px; } }
+
+@media (min-width: 1024px) {
+  #contacto #row .maps {
+    max-width: 647px;
+    margin-left: -6px;
+    margin-bottom: 5rem; }
+  #contacto #row .mapa {
+    max-width: 800px;
+    max-height: 400px; }
+  #contacto #row div input {
+    max-width: 350px; }
+  #contacto #row div textarea {
+    max-width: 350px;
+    height: 150px; } }
 
 #index .seccion1 {
   display: flex;

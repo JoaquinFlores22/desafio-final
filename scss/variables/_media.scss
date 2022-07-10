@@ -186,7 +186,7 @@
 }
 
 #contacto {
-    @media (max-width:425px) {
+    @media (max-width:320px) {
         .link {
             display: flex;
             flex-direction: column;
@@ -204,10 +204,6 @@
             display: none;
         }
 
-        .header {
-            height: 900px;
-        }
-
         #row {
             display: none;
             flex-wrap: wrap;
@@ -216,8 +212,7 @@
         #row .maps {
             max-width: 370px;
             margin-top: 5rem;
-            margin-left: -35px;
-
+            margin-left: -6px;
         }
 
         #row div input {
@@ -229,12 +224,117 @@
             height: 100px;
         }
 
-        #row .mapa{
-            max-width: 400px;
-            max-height: 370px;
+        #row .mapa {
+            max-width: 300px;
+            max-height: 230px;
         }
-        #row .primario{
+
+        #row .primario {
             max-width: 100%;
+        }
+    }
+
+    @media (max-width:475px) {
+        .link {
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            margin: 1rem;
+        }
+
+        .column.subscribe {
+            display: none;
+        }
+
+        .column.links {
+            display: none;
+        }
+
+        #row {
+            display: none;
+            flex-wrap: wrap;
+        }
+
+        #row .maps {
+            max-width: 370px;
+            margin-top: 5rem;
+            margin-left: -6px;
+        }
+
+        #row div input {
+            max-width: 260px;
+        }
+
+        #row div textarea {
+            max-width: 260px;
+            height: 100px;
+        }
+
+        #row .mapa {
+            max-width: 300px;
+            max-height: 230px;
+        }
+
+        #row .primario {
+            max-width: 100%;
+        }
+    }
+
+    @media (min-width:768px) {
+        #row {
+            display: none;
+            flex-wrap: wrap;
+        }
+
+        #row .maps {
+            max-width: 370px;
+            margin-left: -6px;
+            margin-bottom: 5rem;
+        }
+
+        #row div input {
+            max-width: 260px;
+        }
+
+        #row div textarea {
+            max-width: 260px;
+            height: 100px;
+        }
+
+        #row .mapa {
+            max-width: 398px;
+            max-height: 279px;
+        }
+
+        #row .primario {
+            max-width: 100%;
+        }
+
+        .footer input {
+            max-width: 170px;
+        }
+    }
+
+    @media (min-width:1024px) {
+        #row .maps {
+            max-width: 647px;
+            margin-left: -6px;
+            margin-bottom: 5rem;
+        }
+
+        #row .mapa {
+            max-width: 800px;
+            max-height: 400px;
+        }
+        #row div input {
+            max-width: 350px;
+        }
+
+        #row div textarea {
+            max-width: 350px;
+            height: 150px;
         }
     }
 }
