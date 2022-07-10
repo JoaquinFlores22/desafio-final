@@ -33,46 +33,175 @@
 
     }
 
-    @media (min-width:768px) {
-        .card{
+    @media (max-width:768px) {
+        .card {
             width: 130px;
         }
-
-    
     }
-
-    @media (max-width:1440px) {}
-
-    @media (min-width:2560px) {}
 }
 
-
 #trabajo {
-    @media (max-width:425px) {}
+    @media (max-width:425px) {
+        .link {
+            display: inline-block;
+        }
 
-    @media (max-width:1024px) {}
+        li {
+            margin: 1rem;
+        }
 
-    @media (width:1366px) {}
+        .column.subscribe {
+            display: none;
+        }
 
-    @media (max-width:1440px) {}
+        .column.links {
+            display: none;
+        }
 
-    @media (min-width:2560px) {}
+        .video {
+            max-width: 250px;
+            margin-left: -20px;
+            max-height: 170px;
+        }
 
+        @media (max-width:1024px) {}
+
+    }
+
+    @media (min-width:768px) {
+        .video {
+            max-width: 710px;
+            max-height: 370px;
+            margin-left: -2px;
+        }
+
+        .footer input {
+            max-width: 200px;
+        }
+    }
 }
 
 #galeria {
-    @media (max-width:425px) {}
+    @media (max-width:425px) {
+        .barra {
+            display: flex;
+            flex-direction: column;
+        }
 
-    @media (max-width:436px) {}
+        .seccion1 {
+            display: flex;
+            flex-direction: column;
+        }
 
-    @media (max-width:1024px) {}
+        .card {
+            margin: 10px;
+        }
 
-    @media (max-width:1440px) {}
+        .link {
+            display: inline-block;
+        }
 
-    @media (min-width:2560px) {}
+        li {
+            margin: 1rem;
+        }
 
+        .column.subscribe {
+            display: none;
+        }
+
+        .column.links {
+            display: none;
+        }
+
+    }
+
+    @media (max-width:768px) {
+        .card {
+            width: 130px;
+        }
+    }
 }
 
 #biografia {
-    @media(max-width:1440px) {}
+    @media (max-width:425px) {
+        .link {
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            margin: 1rem;
+        }
+
+        .column.subscribe {
+            display: none;
+        }
+
+        .column.links {
+            display: none;
+        }
+
+        .video {
+            max-width: 250px;
+            margin-left: -20px;
+            max-height: 170px;
+        }
+
+        .contacto h1 {
+            max-width: 250px;
+        }
+
+        .contenedor1 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nombre {
+            display: none;
+        }
+    }
+
+    @media (max-width:768px) {
+        .contenedor1 {
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+
+        .footer input {
+            max-width: 180px;
+        }
+
+    }
+
+    @media (min-width:1024px) {
+        .container1 {
+            padding: 30px;
+        }
+
+        .footer {
+            margin-top: -15px;
+        }
+    }
+}
+
+#contacto {
+    @media (max-width:425px) {
+        .link {
+            display: flex;
+            flex-direction: column;
+        }
+
+        li {
+            margin: 1rem;
+        }
+
+        .column.subscribe {
+            display: none;
+        }
+
+        .column.links {
+            display: none;
+        }
+    }
 }

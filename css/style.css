@@ -100,9 +100,100 @@
   #index .column.links {
     display: none; } }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #index .card {
     width: 130px; } }
+
+@media (max-width: 425px) {
+  #trabajo .link {
+    display: inline-block; }
+  #trabajo li {
+    margin: 1rem; }
+  #trabajo .column.subscribe {
+    display: none; }
+  #trabajo .column.links {
+    display: none; }
+  #trabajo .video {
+    max-width: 250px;
+    margin-left: -20px;
+    max-height: 170px; } }
+
+@media (min-width: 768px) {
+  #trabajo .video {
+    max-width: 710px;
+    max-height: 370px;
+    margin-left: -2px; }
+  #trabajo .footer input {
+    max-width: 200px; } }
+
+@media (max-width: 425px) {
+  #galeria .barra {
+    display: flex;
+    flex-direction: column; }
+  #galeria .seccion1 {
+    display: flex;
+    flex-direction: column; }
+  #galeria .card {
+    margin: 10px; }
+  #galeria .link {
+    display: inline-block; }
+  #galeria li {
+    margin: 1rem; }
+  #galeria .column.subscribe {
+    display: none; }
+  #galeria .column.links {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #galeria .card {
+    width: 130px; } }
+
+@media (max-width: 425px) {
+  #biografia .link {
+    display: flex;
+    flex-direction: column; }
+  #biografia li {
+    margin: 1rem; }
+  #biografia .column.subscribe {
+    display: none; }
+  #biografia .column.links {
+    display: none; }
+  #biografia .video {
+    max-width: 250px;
+    margin-left: -20px;
+    max-height: 170px; }
+  #biografia .contacto h1 {
+    max-width: 250px; }
+  #biografia .contenedor1 {
+    display: flex;
+    flex-direction: column; }
+  #biografia .nombre {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #biografia .contenedor1 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px; }
+  #biografia .footer input {
+    max-width: 180px; } }
+
+@media (min-width: 1024px) {
+  #biografia .container1 {
+    padding: 30px; }
+  #biografia .footer {
+    margin-top: -15px; } }
+
+@media (max-width: 425px) {
+  #contacto .link {
+    display: flex;
+    flex-direction: column; }
+  #contacto li {
+    margin: 1rem; }
+  #contacto .column.subscribe {
+    display: none; }
+  #contacto .column.links {
+    display: none; } }
 
 #index .seccion1 {
   display: flex;
@@ -266,7 +357,8 @@ div.redes {
 
 #biografia .contenedor1 {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 15px; }
 
 #biografia .imagen {
   border: solid 3px white;
@@ -361,6 +453,9 @@ div.redes {
 #trabajo .parrafo {
   font-size: 20px;
   color: white; }
+
+#trabajo .conteiner {
+  padding: 50px; }
 
 #galeria .seccion1 {
   display: flex;
