@@ -114,9 +114,9 @@
   #trabajo .column.links {
     display: none; }
   #trabajo .video {
-    max-width: 290px;
+    max-width: 300px;
     margin-left: -20px;
-    max-height: 200px; } }
+    max-height: 210px; } }
 
 @media (min-width: 768px) {
   #trabajo .video {
