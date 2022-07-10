@@ -203,5 +203,28 @@
         .column.links {
             display: none;
         }
+        .header{
+            height: 900px;
+        }
+
+        #row  {
+            display: none;
+            flex-wrap: wrap;
+        }
+        #row .maps{
+            max-width: 230px;
+            height: 300px;
+            margin-left: -85px;
+            margin-top: 5rem;
+        }
+
+        #row div input {
+            max-width: 260px;
+        }
+
+        #row div textarea {
+            max-width: 260px;
+            height: 100px;
+        }
     }
 }
