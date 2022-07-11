@@ -188,6 +188,8 @@
   #contacto .link {
     display: flex;
     flex-direction: column; }
+  #contacto .header {
+    height: 145vh; }
   #contacto li {
     margin: 1rem; }
   #contacto .column.subscribe {
@@ -216,6 +218,10 @@
   #contacto .link {
     display: flex;
     flex-direction: column; }
+  #contacto .header {
+    height: 145vh; }
+  #contacto .redes i {
+    font-size: 30px; }
   #contacto li {
     margin: 1rem; }
   #contacto .column.subscribe {

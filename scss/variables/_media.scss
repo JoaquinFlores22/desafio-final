@@ -192,6 +192,10 @@
             flex-direction: column;
         }
 
+        .header {
+            height: 145vh;
+        }
+
         li {
             margin: 1rem;
         }
@@ -238,6 +242,14 @@
         .link {
             display: flex;
             flex-direction: column;
+        }
+
+        .header {
+            height: 145vh;
+        }
+
+        .redes i{
+            font-size: 30px;
         }
 
         li {
@@ -328,6 +340,7 @@
             max-width: 800px;
             max-height: 400px;
         }
+
         #row div input {
             max-width: 350px;
         }
