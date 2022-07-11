@@ -245,7 +245,7 @@
         }
 
         .header {
-            height: 145vh;
+            height: 100vh;
         }
 
         .redes i{
@@ -270,10 +270,12 @@
         }
 
         #row .maps {
-            max-width: 370px;
+            max-width: 402px;
             margin-top: 5rem;
             margin-left: -6px;
+            max-height: 292px;
         }
+        
 
         #row div input {
             max-width: 260px;

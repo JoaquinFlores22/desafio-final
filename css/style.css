@@ -219,7 +219,7 @@
     display: flex;
     flex-direction: column; }
   #contacto .header {
-    height: 145vh; }
+    height: 100vh; }
   #contacto .redes i {
     font-size: 30px; }
   #contacto li {
@@ -232,9 +232,10 @@
     display: none;
     flex-wrap: wrap; }
   #contacto #row .maps {
-    max-width: 370px;
+    max-width: 402px;
     margin-top: 5rem;
-    margin-left: -6px; }
+    margin-left: -6px;
+    max-height: 292px; }
   #contacto #row div input {
     max-width: 260px; }
   #contacto #row div textarea {
