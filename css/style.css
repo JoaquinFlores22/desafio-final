@@ -325,6 +325,9 @@
 #index div .redes i {
   font-size: 40px; }
 
+#index #card {
+  border: 3px solid black; }
+
 .footer {
   display: flex;
   align-items: center;
@@ -585,3 +588,6 @@ div.redes {
 
 #galeria div .redes i {
   font-size: 40px; }
+
+#galeria #card {
+  border: 3px solid black; }
